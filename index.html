@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Standings</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-logo">
+        <div class="logo" id="logo">
+          <img
+            src="data:image/png;base64,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"
+            alt="Standings Logo"
+          />
+        </div>
+        <div class="title">
+          <h1>Standings</h1>
+        </div>
+      </nav>
+      <div class="modal">
+        <img class="modal-image" src="https://cdn.icon-icons.com/icons2/2269/PNG/512/support_call_center_help_information_customer_service_icon_140614.png" alt="">
+        <h3>HELP CENTER</h3>
+        <p>If you have any issues or your app is not working try to update or reinstall.</p>
+        <p>If the issue persists, please contact us!</p>
+        <br>
+        <br>
+        <form class="form">
+          <input class="nameinput" type="text" value="your name"> 
+          <input class="emailinput" type="text" value="your email address">
+          <input class="issueinput" type="text" value="your issue">
+          <input class="buttoninput" type="button" value="Send Request" onClick="">
+          </form>
+        <button class="close-modal" id="close-modal">Close</button>
+      </div>
+      <button class="open-modal" id="open-modal">help center</button>
+      </div>  
+    </header>
+
+    <div class="modal2"> 
+      <button class="close-modal2" id="close-modal2">Close</button>
+    </div>
+    <section class="contacts"></section>
+      
+    <footer class="main-footer">
+      <h1>
+        <button class=genNew id="genNew">SET YOUR BACKGROUND</button>
+      </h1>    
+      <p>
+        💙 Thanks to
+        <a href="https://github.com/LoreMaru">LoreMaru</a>,
+        <a href="https://github.com/casiimir">casiimir</a>,
+        <a href="https://github.com/ilasw">ilasw</a>, and
+        <a href="https://edgemony.com/"> Edgemony.</a>
+        💙
+      </p>
+    </footer>
+
+    <script src="./script.js" type="module"></script>
+    <script src="./utils.js" type="module"></script>
+  </body>
+</html>
